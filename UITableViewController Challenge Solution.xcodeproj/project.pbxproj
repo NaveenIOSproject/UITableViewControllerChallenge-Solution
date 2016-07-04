@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		011569741D290C3D002AED88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 011569731D290C3D002AED88 /* main.m */; };
 		011569771D290C3D002AED88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 011569761D290C3D002AED88 /* AppDelegate.m */; };
-		0115697A1D290C3D002AED88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011569791D290C3D002AED88 /* ViewController.m */; };
 		0115697D1D290C3D002AED88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0115697B1D290C3D002AED88 /* Main.storyboard */; };
 		0115697F1D290C3D002AED88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0115697E1D290C3D002AED88 /* Assets.xcassets */; };
 		011569821D290C3D002AED88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011569801D290C3D002AED88 /* LaunchScreen.storyboard */; };
+		01CA2CF51D2ADBB20076262D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CA2CF41D2ADBB20076262D /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		011569731D290C3D002AED88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		011569751D290C3D002AED88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		011569761D290C3D002AED88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		011569781D290C3D002AED88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		011569791D290C3D002AED88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0115697C1D290C3D002AED88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0115697E1D290C3D002AED88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		011569811D290C3D002AED88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		011569831D290C3D002AED88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01CA2CF31D2ADBB20076262D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		01CA2CF41D2ADBB20076262D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,10 @@
 		011569711D290C3D002AED88 /* UITableViewController Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
+				01CA2CF31D2ADBB20076262D /* TableViewController.h */,
+				01CA2CF41D2ADBB20076262D /* TableViewController.m */,
 				011569751D290C3D002AED88 /* AppDelegate.h */,
 				011569761D290C3D002AED88 /* AppDelegate.m */,
-				011569781D290C3D002AED88 /* ViewController.h */,
-				011569791D290C3D002AED88 /* ViewController.m */,
 				0115697B1D290C3D002AED88 /* Main.storyboard */,
 				0115697E1D290C3D002AED88 /* Assets.xcassets */,
 				011569801D290C3D002AED88 /* LaunchScreen.storyboard */,
@@ -149,8 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0115697A1D290C3D002AED88 /* ViewController.m in Sources */,
 				011569771D290C3D002AED88 /* AppDelegate.m in Sources */,
+				01CA2CF51D2ADBB20076262D /* TableViewController.m in Sources */,
 				011569741D290C3D002AED88 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +300,7 @@
 				011569881D290C3D002AED88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
